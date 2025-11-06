@@ -1,0 +1,150 @@
+{
+  "name": "Samir Gupta",
+  "title": "Lead Data Scientist",
+  "email": "sgupta@udel.edu",
+  "phone": "+91-7003695172",
+  "location": "Kolkata, India",
+  "links": [
+    {
+      "text": "NCBI My Bibliography",
+      "href": "https://www.ncbi.nlm.nih.gov/myncbi/samir.gupta.2/cv/600716/"
+    }
+  ],
+  "research_interests": [
+    "Natural Language Processing (NLP)",
+    "Machine Learning (ML) for Biomedical & Clinical domains",
+    "Clinical NLP & Informatics",
+    "Health Data Science"
+  ],
+  "work_experience": [
+    {
+      "role": "Lead Data Scientist",
+      "org": "Ericsson India",
+      "place": "Kolkata, India",
+      "time": "Jun 2025 \u2013 present"
+    },
+    {
+      "role": "Research Instructor/Faculty",
+      "org": "Innovation Center for Biomedical Informatics & Dept. of Oncology, Georgetown University",
+      "place": "Washington, DC",
+      "time": "Apr 2021 \u2013 Apr 2025"
+    },
+    {
+      "role": "Post-Doctoral Fellow, Informatics",
+      "org": "Innovation Center for Biomedical Informatics, Georgetown University",
+      "place": "Washington, DC",
+      "time": "Apr 2019 \u2013 Apr 2021"
+    },
+    {
+      "role": "Research and Teaching Assistant",
+      "org": "Dept. of Computer and Information Sciences, University of Delaware",
+      "place": "Newark, DE",
+      "time": "Sep 2011 \u2013 Mar 2019"
+    },
+    {
+      "role": "Software Engineer",
+      "org": "Interra Systems",
+      "place": "Kolkata, India",
+      "time": "Oct 2009 \u2013 Jul 2011"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D., Computer & Information Science (GPA 4.0/4.0)",
+      "inst": "University of Delaware",
+      "place": "Newark, DE",
+      "year": "Nov 2020",
+      "note": "Dissertation: Extraction of knowledge for microRNAs and genes: Extracting connections through Association, Involvement, and Regulation"
+    },
+    {
+      "degree": "M.S., Computer & Information Science (GPA 4.0/4.0)",
+      "inst": "University of Delaware",
+      "place": "Newark, DE",
+      "year": "May 2014"
+    },
+    {
+      "degree": "B.E. (Hons.), Computer Science & Engineering (GPA 8.78/10.0)",
+      "inst": "Jadavpur University",
+      "place": "Kolkata, India",
+      "year": "Jul 2009"
+    }
+  ],
+  "research_experience": [
+    {
+      "theme": "NLP for Clinical Text",
+      "bullets": [
+        "Built pipeline to identify immune-related adverse events from longitudinal clinical notes for cancer patients treated with ICIs (Georgetown\u2013Lombardi Immuno\u2011Oncology Registry).",
+        "Developed extraction of NSAID usage attributes (drug, frequency, route, strength) from notes; used in an observational study of lung cancer survival (collaboration with Frederick National Lab)."
+      ]
+    },
+    {
+      "theme": "Assisting Biocuration via Automation",
+      "bullets": [
+        "MACE2k: text mining to extract variant\u2013disease\u2013drug response associations; investigates distant supervision & transfer learning.",
+        "eMIND: deep learning system (BioBERT, PubMedBERT) extracting variant impact evidence in AD/ADRD; curator\u2011vetted outputs included in UniProt additional bibliography."
+      ]
+    },
+    {
+      "theme": "ML for Observational Studies",
+      "bullets": [
+        "Predicted immunotherapy response in NSCLC from demographics, labs, meds, and molecular tests.",
+        "Developed speech/acoustic + NLP pipeline to screen suicidality among US veterans (collab with VA & Psychiatry).",
+        "Detected post\u2011surgical opioid use disorder risk in upper extremity surgeries (Curtis National Hand Center; >2000 patients)."
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "inst": "Georgetown University (HIDS)",
+      "time": "Sep 2019 \u2013 present",
+      "bullets": [
+        "Curriculum design, instruction, and assessment for HIDS graduate program.",
+        "Instructor: HIDS 501 (Massive Health Data Fundamentals); HIDS 506 (AI/ML for Health Applications); Co\u2011mentor for Capstone."
+      ]
+    },
+    {
+      "inst": "University of Delaware",
+      "time": "Sep 2011 \u2013 May 2013",
+      "bullets": [
+        "TA for Data Structures, Intro to Algorithms, Intro to CS, Logic, and Machine Learning; grading & office hours."
+      ]
+    }
+  ],
+  "awards": [
+    "Best Research Paper: ICPC 2013",
+    "Best Research Paper: MSR 2013",
+    "Professional Development Travel Awards: ICPC 2013, SMBM 2014, BioNLP 2015 & 2017",
+    "Program Committee: MASC-SLL 2018; AMIA Student Paper Competition 2021\u20132022",
+    "Workshop Organizer: OncoMX Community Workshop 2018",
+    "Memberships: AMIA; IASLC",
+    "Journal Reviewer: PLOS One, Bioinformatics Advances, Journal of Biological Databases & Curation",
+    "Conference Reviewer: AMIA 2020 Annual Symposium; AMIA 2022 Informatics Summit"
+  ],
+  "skills": {
+    "Languages": [
+      "Python",
+      "R",
+      "C/C++",
+      "Java",
+      "Ruby",
+      "Perl",
+      "Lisp",
+      "Shell"
+    ],
+    "Web": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Django",
+      "Flask"
+    ],
+    "Tools": [
+      "Docker",
+      "Protocol Buffers",
+      "MongoDB",
+      "scikit-learn",
+      "TensorFlow",
+      "Keras"
+    ]
+  }
+}

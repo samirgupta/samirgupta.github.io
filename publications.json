@@ -1,0 +1,226 @@
+{
+  "journal": [
+    {
+      "title": "Utilizing Immuno-Oncology registry data for enhanced non-small cell lung cancer treatment predictions",
+      "authors": "Yili Zhang, Shaked Lev-Ari, Jacob Zaemes, Alexandra Della Pia, Bianca DeAgresta, Samir Gupta, Alex Marki, Rachel Zemel, Andrew Ip, Adil Alaoui, others",
+      "year": 2025,
+      "venue": "JAMIA open",
+      "doi": "",
+      "url": "",
+      "rawtype": "article"
+    },
+    {
+      "title": "Patient-reported data augment prediction models of persistent opioid use after elective upper extremity surgery",
+      "authors": "Aviram M Giladi, Michael M Shipp, Kavya K Sanghavi, Gongliang Zhang, Samir Gupta, Kristen E Miller, Anas Belouali, Subha Madhavan",
+      "year": 2023,
+      "venue": "Plastic and reconstructive surgery",
+      "doi": "",
+      "url": "",
+      "rawtype": "article"
+    },
+    {
+      "title": "Real-world studies link NSAID use to improved overall lung cancer survival",
+      "authors": "Jason Roszik, J Jack Lee, Yi-Hung Wu, Xi Liu, Masanori Kawakami, Jonathan M Kurie, Anas Belouali, Simina M Boca, Samir Gupta, Robert A Beckman, others",
+      "year": 2022,
+      "venue": "Cancer research communications",
+      "doi": "",
+      "url": "",
+      "rawtype": "article"
+    },
+    {
+      "title": "Acoustic and language analysis of speech for suicidal ideation among US veterans",
+      "authors": "Anas Belouali, Samir Gupta, Vaibhav Sourirajan, Jiawei Yu, Nathaniel Allen, Adil Alaoui, Mary Ann Dutton, Matthew J Reinhard",
+      "year": 2021,
+      "venue": "BioData mining",
+      "doi": "",
+      "url": "",
+      "rawtype": "article"
+    },
+    {
+      "title": "Automated identification of patients with immune-related adverse events from clinical notes using word embedding and machine learning",
+      "authors": "Samir Gupta, Anas Belouali, Neil J Shah, Michael B Atkins, Subha Madhavan",
+      "year": 2021,
+      "venue": "JCO clinical cancer informatics",
+      "doi": "",
+      "url": "",
+      "rawtype": "article"
+    },
+    {
+      "title": "emiRIT: a text-mining-based resource for microRNA information",
+      "authors": "Debarati Roychowdhury, Samir Gupta, Xihan Qin, Cecilia N Arighi, K Vijay-Shanker",
+      "year": 2021,
+      "venue": "Database",
+      "doi": "",
+      "url": "",
+      "rawtype": "article"
+    },
+    {
+      "title": "Collaborative, multidisciplinary evaluation of cancer variants through virtual molecular tumor boards informs local clinical practices",
+      "authors": "Shruti Rao, Beth Pitel, Alex H Wagner, Simina M Boca, Matthew McCoy, Ian King, Samir Gupta, Ben Ho Park, Jeremy L Warner, James Chen, others",
+      "year": 2020,
+      "venue": "JCO clinical cancer informatics",
+      "doi": "",
+      "url": "",
+      "rawtype": "article"
+    },
+    {
+      "title": "OncoMX: a knowledgebase for exploring cancer biomarkers in the context of related cancer and healthy data",
+      "authors": "Hayley M Dingerdissen, Frederic Bastian, K Vijay-Shanker, Marc Robinson-Rechavi, Amanda Bell, Nikhita Gogate, Samir Gupta, Evan Holmes, Robel Kahsay, Jonathon Keeney, others",
+      "year": 2020,
+      "venue": "JCO clinical cancer informatics",
+      "doi": "",
+      "url": "",
+      "rawtype": "article"
+    },
+    {
+      "title": "DEXTER: disease-expression relation extraction from text",
+      "authors": "Samir Gupta, Hayley Dingerdissen, Karen E Ross, Yu Hu, Cathy H Wu, Raja Mazumder, K Vijay-Shanker",
+      "year": 2018,
+      "venue": "Database",
+      "doi": "",
+      "url": "",
+      "rawtype": "article"
+    },
+    {
+      "title": "Identification of key differentially expressed MicroRNAs in cancer patients through pan-cancer analysis",
+      "authors": "Yu Hu, Hayley Dingerdissen, Samir Gupta, Robel Kahsay, Vijay Shanker, Quan Wan, Cheng Yan, Raja Mazumder",
+      "year": 2018,
+      "venue": "Computers in biology and medicine",
+      "doi": "",
+      "url": "",
+      "rawtype": "article"
+    },
+    {
+      "title": "miRiaD: a text mining tool for detecting associations of microRNAs with diseases",
+      "authors": "Samir Gupta, Karen E Ross, Catalina O Tudor, Cathy H Wu, Carl J Schmidt, K Vijay-Shanker",
+      "year": 2016,
+      "venue": "Journal of biomedical semantics",
+      "doi": "",
+      "url": "",
+      "rawtype": "article"
+    }
+  ],
+  "conference": [
+    {
+      "title": "Exploring the Utilization of Synthetic Data in Unsupervised Clustering for Opioid Misuse Analysis",
+      "authors": "Yili Zhang, Jia Li Dong, Bai Xue, Yanbao Xiong, Samir Gupta, Maarten Van Segbroeck, Nawar Shara, Peter McGarvey",
+      "year": 2024,
+      "venue": "American Medical Informatics Association (AMIA) Annual Symposium,",
+      "doi": "",
+      "url": "",
+      "rawtype": "inproceedings"
+    },
+    {
+      "title": "Identification of Patients with Immune-related Adverse Events from Clinical Notes using Machine Learning",
+      "authors": "Samir Gupta, Anas Belouali, Neil Shah, Michael Atkins, Subha Madhavan",
+      "year": 2020,
+      "venue": "2020 IEEE International Conference on Healthcare Informatics (ICHI)",
+      "doi": "",
+      "url": "",
+      "rawtype": "inproceedings"
+    },
+    {
+      "title": "Identifying comparative structures in biomedical text",
+      "authors": "Samir Gupta, ASM Ashique Mahmood, Karen Ross, Cathy Wu, K Vijay-Shanker",
+      "year": 2017,
+      "venue": "BioNLP 2017",
+      "doi": "",
+      "url": "",
+      "rawtype": "inproceedings"
+    },
+    {
+      "title": "An extended dependency graph for relation extraction in biomedical texts",
+      "authors": "Yifan Peng, Samir Gupta, Cathy Wu, K Vijay-Shanker",
+      "year": 2015,
+      "venue": "Proceedings of BioNLP 15",
+      "doi": "",
+      "url": "",
+      "rawtype": "inproceedings"
+    },
+    {
+      "title": "Automatically Identifying Biological Functions of microRNAs from the Literature",
+      "authors": "Samir Gupta, Catalina O Tudor, Cathy H Wu, Carl J Schmidt, K Vijay-Shanker",
+      "year": 2014,
+      "venue": "6th International Symposium on Semantic Mining in Biomedicine (SMBM 2014)",
+      "doi": "",
+      "url": "",
+      "rawtype": "inproceedings"
+    },
+    {
+      "title": "Part-of-speech tagging of program identifiers for improved text-based software engineering tools",
+      "authors": "Samir Gupta, Sana Malik, Lori Pollock, K Vijay-Shanker",
+      "year": 2013,
+      "venue": "2013 21st International Conference on Program Comprehension (ICPC)",
+      "doi": "",
+      "url": "",
+      "rawtype": "inproceedings"
+    },
+    {
+      "title": "Junlg-msr: A machine learning approach of main subject reference selection with rule based improvement",
+      "authors": "Samir Gupta, Sivaji Bandyopadhyay",
+      "year": 2009,
+      "venue": "Proceedings of the 2009 Workshop on Language Generation and Summarisation (UCNLG+ Sum 2009)",
+      "doi": "",
+      "url": "",
+      "rawtype": "inproceedings"
+    }
+  ],
+  "preprint": [
+    {
+      "title": "eMIND: Enabling automatic collection of protein variation impacts in Alzheimer\u2019s disease from the literature",
+      "authors": "Samir Gupta, Xihan Qin, Qinghua Wang, Julie Cowart, Hongzhan Huang, Cathy H Wu, K Vijay-Shanker, Cecilia N Arighi",
+      "year": 2023,
+      "venue": "bioRxiv",
+      "doi": "",
+      "url": "",
+      "rawtype": "article"
+    },
+    {
+      "title": "MACE2K: A Text-Mining Tool to Extract Literature-based Evidence for Variant Interpretation using Machine Learning",
+      "authors": "Samir Gupta, Shruti Rao, Trisha Miglani, Yasaswini Iyer, Junxia Lin, Ahson M Saiyed, Ifeoma Ikwuemesi, Shannon McNulty, Courtney Thaxton, Subha Madhavan",
+      "year": 2020,
+      "venue": "bioRxiv",
+      "doi": "",
+      "url": "",
+      "rawtype": "article"
+    }
+  ],
+  "misc": [
+    {
+      "title": "Immune-related adverse event prediction and influential factor identification.",
+      "authors": "Yili Zhang, Shaked Lev-Ari, Neil J Shah, Samir Gupta, Jacob Peter Zaemes, Adil Alaoui, Peter McGarvey, Michael B Atkins",
+      "year": 2024,
+      "venue": "American Society of Clinical Oncology",
+      "doi": "",
+      "url": "",
+      "rawtype": "misc"
+    },
+    {
+      "title": "1317 Enhancing patient safety in melanoma treatment: harnessing machine learning for predicting immune-related adverse events",
+      "authors": "Yili Zhang, Shaked Lev Ari, Samir Gupta, Jacob Zaemes, Neil J Shah, Adil Alaoui, Subha Madhavan, Peter McGarvey, Michael B Atkins",
+      "year": 2023,
+      "venue": "BMJ Specialist Journals",
+      "doi": "",
+      "url": "",
+      "rawtype": "misc"
+    },
+    {
+      "title": "1418 Treatment-free survival in patients with advanced melanoma and non-small cell lung cancer receiving immune checkpoint inhibitors: Real-world outcomes over a 3-year timespan",
+      "authors": "Jacob Zaemes, Shaked Lev Ari, Lauren Pascual, Opeyemi A Jegede, Natali Arias-Orozco, Brittany Sinclaire, Alexandra DellaPia, Rachel A Zemel, Yili Zhang, Samir Gupta, others",
+      "year": 2023,
+      "venue": "BMJ Specialist Journals",
+      "doi": "",
+      "url": "",
+      "rawtype": "misc"
+    },
+    {
+      "title": "1303 Prediction of best response for NSCLC patients receiving immunotherapy by machine learning models",
+      "authors": "Yili Zhang, Samir Gupta, Anas Belouali, Shaked Lev-Ari, Neil Shah, Kanchi Krishnamurthy, Micheal Serzan, Adil Alaoui, Peter McGarvey, Michael Atkins, others",
+      "year": 2022,
+      "venue": "BMJ Specialist Journals",
+      "doi": "",
+      "url": "",
+      "rawtype": "misc"
+    }
+  ]
+}

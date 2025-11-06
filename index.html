@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Samir Gupta — Academic Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0e11;
+      --card: #11151a;
+      --muted: #9aa4b2;
+      --text: #e8eef8;
+      --accent: #61dafb;
+      --link: #7dd3fc;
+      --chip: #1f2730;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { max-width: 1100px; margin: 24px auto 0; padding: 0 16px; display:flex; align-items:center; gap:24px; }
+    header img { width: 140px; height: 140px; border-radius: 16px; object-fit: cover; box-shadow: 0 6px 18px rgba(0,0,0,0.35); }
+    .hgroup h1 { font-size: 34px; margin:0; font-weight:800; letter-spacing:0.2px; }
+    .hgroup p { margin:6px 0 0; color:var(--muted); }
+    .chips { display:flex; gap:8px; flex-wrap:wrap; margin-top:10px; }
+    .chip { background:var(--chip); color:var(--text); padding:6px 10px; border-radius:999px; font-size:12px; }
+    nav { max-width:1100px; margin: 16px auto; padding: 0 16px 8px; border-bottom: 1px solid #1b222b; }
+    nav a { margin-right: 14px; font-weight:600; }
+    main { max-width:1100px; margin: 12px auto 80px; padding: 0 16px; }
+    section { margin-top: 28px; }
+    h2 { font-size: 22px; margin: 10px 0 14px; }
+    .card { background: var(--card); border: 1px solid #1b222b; border-radius: 16px; padding: 16px; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+    .muted { color: var(--muted); }
+    ul.clean { list-style:none; margin:0; padding:0; }
+    li.role { padding:10px 0; border-bottom: 1px dashed #223; }
+    .pubs-controls { display:flex; gap:12px; align-items:center; margin-bottom:8px; flex-wrap: wrap; }
+    select, input[type="search"] { background:#0f141a; border:1px solid #232b35; color:var(--text); padding:8px 10px; border-radius: 10px; }
+    .pub { padding:10px 0; border-bottom: 1px dashed #223; }
+    .pub:last-child { border-bottom:none; }
+    footer { max-width:1100px; margin: 24px auto 40px; padding: 0 16px; color:var(--muted); }
+    .small { font-size: 12px; }
+    @media (max-width:640px) {
+      header { flex-direction: column; align-items:flex-start; }
+      header img { width: 120px; height: 120px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="photo.jpg" alt="Profile photo of Samir Gupta" />
+    <div class="hgroup">
+      <h1>Samir Gupta</h1>
+      <p>Lead Data Scientist · Kolkata, India · <a href="mailto:sgupta@udel.edu">sgupta@udel.edu</a> · +91-7003695172</p>
+      <div class="chips" id="interests"></div>
+      <div class="chips" id="links"></div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#research">Research</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#awards">Awards</a>
+    <a href="#skills">Skills</a>
+    <a href="#publications">Publications</a>
+  </nav>
+
+  <main>
+    <section id="experience">
+      <h2>Work Experience</h2>
+      <div class="card">
+        <ul class="clean" id="work-list"></ul>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="card">
+        <ul class="clean" id="edu-list"></ul>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2>Research Experience</h2>
+      <div class="card" id="research-cards"></div>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <div class="card" id="teach-cards"></div>
+    </section>
+
+    <section id="awards">
+      <h2>Awards & Professional Activities</h2>
+      <div class="card">
+        <ul class="clean" id="awards-list"></ul>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="grid">
+        <div class="card"><strong>Languages</strong><ul class="clean" id="lang-list"></ul></div>
+        <div class="card"><strong>Web</strong><ul class="clean" id="web-list"></ul></div>
+        <div class="card"><strong>Tools</strong><ul class="clean" id="tool-list"></ul></div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <div class="pubs-controls">
+        <label>Category 
+          <select id="cat">
+            <option value="journal">Journal</option>
+            <option value="conference">Conference</option>
+            <option value="preprint">Preprint</option>
+            <option value="misc">Misc</option>
+          </select>
+        </label>
+        <label>Filter <input type="search" id="q" placeholder="title, author, venue"></label>
+      </div>
+      <div class="card">
+        <div id="pub-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="small">
+    © 2025 Samir Gupta. Built with ❤️ and hosted on GitHub Pages.
+  </footer>
+
+  <script>
+    async function loadJSON(path) {
+      const res = await fetch(path);
+      return res.json();
+    }
+    function el(tag, attrs = {}, html = "") {
+      const e = document.createElement(tag);
+      for (const [k,v] of Object.entries(attrs)) e.setAttribute(k, v);
+      e.innerHTML = html;
+      return e;
+    }
+    function listify(id, items) {
+      const ul = document.getElementById(id);
+      ul.innerHTML = "";
+      items.forEach(t => ul.appendChild(el('li', {}, t)));
+    }
+
+    Promise.all([loadJSON('resume.json'), loadJSON('publications.json')]).then(([cv, pubs]) => {
+      // Header chips
+      const interests = document.getElementById('interests');
+      cv.research_interests.forEach(t=> interests.appendChild(el('span', {class:'chip'}, t)));
+      const links = document.getElementById('links');
+      (cv.links||[]).forEach(l=> links.appendChild(el('a', {class:'chip', href:l.href, target:'_blank'}, l.text)));
+
+      // Work experience
+      const work = document.getElementById('work-list');
+      cv.work_experience.forEach(w => {
+        const li = el('li', {class:'role'}, `<strong>${w.role}</strong>, ${
+          w.org} — <span class="muted">${w.place}</span><br><span class="muted">${w.time}</span>`);
+        work.appendChild(li);
+      });
+
+      // Education
+      const edu = document.getElementById('edu-list');
+      cv.education.forEach(e => {
+        const note = e.note ? `<div class="muted" style="margin-top:6px">${e.note}</div>` : "";
+        edu.appendChild(el('li', {class:'role'}, `<strong>${e.degree}</strong><br>${e.inst}, <span class="muted">${e.place}</span> — <span class="muted">${e.year}</span>${note}`));
+      });
+
+      // Research experience
+      const rc = document.getElementById('research-cards');
+      cv.research_experience.forEach(r => {
+        const div = el('div', {class:'card'}, `<strong>${r.theme}</strong>`);
+        const ul = el('ul', {class:'clean'});
+        r.bullets.forEach(b => ul.appendChild(el('li', {}, b)));
+        div.appendChild(ul);
+        rc.appendChild(div);
+      });
+
+      // Teaching
+      const tc = document.getElementById('teach-cards');
+      cv.teaching.forEach(t => {
+        const div = el('div', {class:'card'}, `<strong>${t.inst}</strong> — <span class="muted">${t.time}</span>`);
+        const ul = el('ul', {class:'clean'});
+        t.bullets.forEach(b => ul.appendChild(el('li', {}, b)));
+        div.appendChild(ul);
+        tc.appendChild(div);
+      });
+
+      // Awards
+      listify('awards-list', cv.awards);
+
+      // Skills
+      listify('lang-list', cv.skills.Languages);
+      listify('web-list', cv.skills.Web);
+      listify('tool-list', cv.skills.Tools);
+
+      // Publications
+      const catSel = document.getElementById('cat');
+      const q = document.getElementById('q');
+      const list = document.getElementById('pub-list');
+
+      function render() {
+        const c = catSel.value;
+        const f = (q.value||'').toLowerCase();
+        const arr = pubs[c] || [];
+        list.innerHTML = "";
+        arr.filter(p => (p.title + ' ' + p.authors + ' ' + (p.venue||'') ).toLowerCase().includes(f))
+           .forEach(p => {
+              const doi = p.doi ? `<a href="https://doi.org/${p.doi}" target="_blank">DOI</a>` : "";
+              const url = (!p.doi && p.url) ? `<a href="${p.url}" target="_blank">Link</a>` : "";
+              const meta = [p.venue, p.year].filter(Boolean).join(' • ');
+              const html = `<div class="pub">
+                <div><strong>${p.title}</strong></div>
+                <div class="muted small">${p.authors}</div>
+                <div class="muted small">${meta}</div>
+                <div class="small">${doi} ${url}</div>
+              </div>`;
+              list.appendChild(el('div', {}, html));
+           });
+        if(!list.innerHTML) list.innerHTML = '<div class="muted">No results.</div>';
+      }
+      catSel.addEventListener('change', render);
+      q.addEventListener('input', render);
+      render();
+    });
+  </script>
+</body>
+</html>
